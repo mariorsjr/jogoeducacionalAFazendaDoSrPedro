@@ -1,0 +1,207 @@
+#loading{
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-top: -300px;
+  margin-left: -400px;
+}
+
+#tela_jogo{
+  background-image: url("./resources/images/fundo.jpg");
+  height: 600px;
+  width: 800px;
+}
+
+#jogo_todo{
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 800px;
+  height: 600px; 
+  /*centralizar*/
+  margin-left: -400px;
+  margin-top: -300px;
+  top: 50%;
+  left: 50%;
+}
+
+#header{
+    position: absolute;
+    height: 80px;
+    width: 800px;
+}
+
+#vidas{
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  top: 2%;
+  right: 5%;
+  /* display: none; */ 
+  background-repeat: no-repeat; 
+}
+
+div#frases {
+    /* background-color: ghostwhite; */
+    height: 80px;
+    font-size: xx-large;
+    color: white;
+    top: 5%;
+    position: relative;
+    font-family: cursive;
+}
+
+div#instru{
+    /* background-color: ghostwhite; */
+    height: 80px;
+    font-size: x-large;
+    color: white;
+    top: 2%;
+    position: relative;
+    text-align: justify;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#fazenda{
+  background-image: url("./resources/images/fundo.jpg");
+  position: absolute;
+  width: 350px;
+  height: 60px;
+  top: 10px;
+  left: 5px;
+}
+
+#srpedro{
+    position: absolute;
+    height: 200px;
+    top: 66.7%;
+    left: 1%;
+}
+#srpedrofrases{
+    position: absolute;
+    height: 300px;
+    top: 50%;
+    left: 1%;
+}
+
+button#iniciar{
+  border:0 none;
+  background: none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  background-image: url("./resources/images/iniciar.png");
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+button#continuar{
+  border:0 none;
+  background: none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  background-image: url("./resources/images/avancar.png");
+  width: 220px;
+  height: 100px;
+  position: absolute;
+  top: 83%;
+  left: 78%;
+  background-repeat: no-repeat;
+}
+button#tentar{
+  border:0 none;
+  background: none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  background-image: url("./resources/images/tentarnovamente.png");
+  width: 430px;
+  height: 45px;
+  top: 55%;
+  left: 40%;
+  position: absolute;
+}
+
+button#jogarNovamente{
+  border:0 none;
+  background: none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  background-image: url("./resources/images/jogarnovamente.png");
+  width: 400px;
+  height: 50px;
+  top: 55%;
+  left: 40%;
+  position: absolute;
+}
+
+button{
+  border-radius: 5%;
+  height: 90px;
+  width: 250px;
+  font-size: larger;
+  background-color: rgba(232, 232, 232, 0.67);
+  margin-bottom: 5px;
+  border: 0px;
+  /*remover borda apos clicar*/
+  outline: none;
+}
+
+div#botoes {
+    width: 100px;
+    bottom: 3%;
+    position: absolute;
+    left: 35%;
+}
+
+img#perdeu{
+  margin-top: 5%;
+}
+
+.balao{
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 15px;
+    width: 760px;
+    height: 150px;
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+.balao:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgba(0, 0, 0, 0.65);
+    bottom: -20px;
+    left: 10%;
+}
+
+.balao2{
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 15px;
+    width: 600px;
+    height: 410px;
+    position: relative;
+    top: 15%;
+    left: 22%;
+}
+
+#animais{
+  position: absolute; 
+  top: 76.8%;
+  width: 250px;
+  left: 68%;
+}
+
+#venceu{
+    top: 30%;
+    position: absolute;
+    left: 15%;
+}
